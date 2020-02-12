@@ -6,7 +6,7 @@ const app = express();
 app.use("/teacher", teacherHandler);
 
 app.get("/", (req, res) => {
-  res.status(200).send("Welcome");
+  res.status(200).send("Welcome to Home Page");
 });
 
 const server = app.listen("8080", () => {
